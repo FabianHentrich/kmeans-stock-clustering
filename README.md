@@ -14,3 +14,8 @@ This analysis highlights both well-defined clusters (e.g., financial services, h
 - **Preprocessing**: Standardize the data to ensure consistent scaling, essential for clustering algorithms.
 - **Clustering Analysis**: Use machine learning techniques like K-Means to cluster companies based on their historical stock price data.
 - **Dimensionality Reduction and Visualization**: Apply techniques such as PCA (Principal Component Analysis) and t-SNE (t-distributed Stochastic Neighbor Embedding) to reduce the complexity of the data, allowing for meaningful visualizations of the clustered groups.
+
+
+## Disclaimer
+
+This project is for demonstration and educational purposes only. The results should not be interpreted as professional stock advice.
