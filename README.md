@@ -16,6 +16,17 @@ This analysis highlights both well-defined clusters (e.g., financial services, h
 - **Dimensionality Reduction and Visualization**: Apply techniques such as PCA (Principal Component Analysis) and t-SNE (t-distributed Stochastic Neighbor Embedding) to reduce the complexity of the data, allowing for meaningful visualizations of the clustered groups.
 
 
+## Reproducing the analysis
+
+```bash
+pip install -r requirements.txt
+python fetch_data.py        # regenerates sectors.csv and stockdata.csv (2010-2019)
+jupyter lab Kmeans_clustering_of_stockdata.ipynb
+```
+
+`fetch_data.py` is the only step that hits the network (Wikipedia + Yahoo Finance);
+the notebook itself runs fully offline against the two CSVs.
+
 ## Disclaimer
 
 This project is for demonstration and educational purposes only. The results should not be interpreted as professional stock advice.
